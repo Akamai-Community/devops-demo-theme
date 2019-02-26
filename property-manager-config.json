@@ -41,30 +41,20 @@
         "children": [
           {
             "name": "JPEG Images",
-            "children": [],
-            "behaviors": [
+            "children": [
               {
-                "name": "caching",
-                "options": {
-                    "behavior": "MAX_AGE",
-                    "mustRevalidate": false,
-                    "ttl": "2m"
-                }
-            },
-            {
-                "name": "prefreshCache",
-                "options": {
-                    "enabled": true,
-                    "prefreshval": 90
-                }
-            },
-            {
-                "name": "prefetch",
-                "options": {
-                    "enabled": true
-                }
-            }
-        ],
+                "name": "Adaptive Image Compression",
+                "children": [],
+                "behaviors": [
+                    {
+                        "name": "caching",
+                        "options": {
+                            "behavior": "MAX_AGE",
+                            "mustRevalidate": false,
+                            "ttl": "2m"
+                        }
+                    }
+            ],
             "criteria": [
               {
                 "name": "fileExtension",
