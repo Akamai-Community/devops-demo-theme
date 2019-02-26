@@ -42,7 +42,16 @@
           {
             "name": "JPEG Images",
             "children": [],
-            "behaviors": [],
+            "behaviors": [
+              {
+                "name": "caching",
+                "options": {
+                    "behavior": "MAX_AGE",
+                    "mustRevalidate": false,
+                    "ttl": "3d"
+                }
+            }
+        ],
             "criteria": [
               {
                 "name": "fileExtension",
