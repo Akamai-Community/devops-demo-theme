@@ -50,6 +50,19 @@
                     "mustRevalidate": false,
                     "ttl": "2m"
                 }
+            },
+            {
+                "name": "prefreshCache",
+                "options": {
+                    "enabled": true,
+                    "prefreshval": 90
+                }
+            },
+            {
+                "name": "prefetch",
+                "options": {
+                    "enabled": true
+                }
             }
         ],
             "criteria": [
@@ -271,8 +284,6 @@
                     "hqx",
                     "ico",
                     "ini",
-                    "jpeg",
-                    "jpg",
                     "mov",
                     "mp3",
                     "nc",
