@@ -236,7 +236,7 @@
                 "options": {
                   "behavior": "MAX_AGE",
                   "mustRevalidate": false,
-                  "ttl": "7d"
+                  "ttl": "2m"
                 }
               },
               {
@@ -320,7 +320,9 @@
                     "webp",
                     "jxr",
                     "jar",
-                    "jp2"
+                    "jp2",
+		    "jpg",
+		    "jpeg",
                   ]
                 }
               }
