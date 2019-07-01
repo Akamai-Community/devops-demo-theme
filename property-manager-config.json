@@ -4,7 +4,7 @@
   "groupId": "grp_42506",
   "propertyId": "prp_404080",
   "propertyName": "devops-demo.akamai.com",
-  "propertyVersion": 4,
+  "propertyVersion": 5,
   "etag": "ac88652b179958dc9395be37b265552084813400",
   "rules": {
     "name": "default",
@@ -48,7 +48,7 @@
                 "options": {
                     "behavior": "MAX_AGE",
                     "mustRevalidate": false,
-                    "ttl": "2m"
+                    "ttl": "3m"
                 }
             },
             {
